@@ -153,6 +153,7 @@ input {
     position: absolute;
     right: 5%;
     top: 3%;
+    display: none;
 }
 
 @media(max-width:600px){
@@ -169,7 +170,7 @@ input {
   height: 30px;
   width: 80px;
   position: absolute;
-  right: 30%;
+  right: 10%;
   top: 2%;
   display: flex;
   background-color: skyblue;
@@ -191,19 +192,21 @@ input {
 .nav i{
     color: white;
     position: absolute;
-    right: 25%;
-    top: 3%;
+    right: 4%;
+    top: 2.5%;
+    font-size: 20px;
+    display: block;
 }
 .top {
   display: flex;
   gap: 10px;
   max-height: 15%;
-  width: 60%;
+  width: 90%;
   position: fixed;
   z-index: 99;
-  margin-right: 60px;
+  margin: 20px;
 }
-/* input {
+input {
   height: 80%;
   width: 100%;
   padding: 10px 20px;
@@ -211,7 +214,7 @@ input {
   font-weight: 300;
   border-radius: 12px;
   border: 2px solid black;
-} */
+}
 .top button {
   height: 80%;
   padding: 10px 20px;
@@ -279,7 +282,7 @@ body {
     width: 100%;
     /* overflow: hidden; */
     gap: 100px;
-    background-color: red;
+    /* background-color: red; */
     position: relative;
     overflow-x: hidden;
 }
