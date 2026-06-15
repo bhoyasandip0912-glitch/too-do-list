@@ -148,6 +148,19 @@ input {
   justify-content: center;
   transition: all 0.3s ease;
 }
+.edit-input{
+    padding: 15px 12px;
+    border: 1px solid #999;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    width: 200px;
+}
+
+.edit-input::placeholder{
+    color: gray;
+    font-style: italic;
+}
 .nav i{
     color: white;
     position: absolute;
@@ -287,6 +300,31 @@ body {
 }
 
 
+.edit-input{
+    width: 100%;
+    max-width: 220px;
+    padding: 8px 12px;
+    border: 2px solid #999;
+    border-radius: 8px;
+    outline: none;
+    font-size: clamp(14px, 2vw, 16px);
+    box-sizing: border-box;
+}
 
+.edit-input::placeholder{
+    color: gray;
+    font-style: italic;
+}
+
+/* Mobile */
+@media (max-width: 600px){
+
+    .edit-input{
+        max-width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+} 
 
 }
